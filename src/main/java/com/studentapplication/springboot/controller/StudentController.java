@@ -26,6 +26,8 @@ public class StudentController {
 	
 	@Autowired
 	private StudentRepository studentRepository;
+	private int b;
+	
 	
 	//get all students
 	@CrossOrigin(origins = "http://localhost:4200")
