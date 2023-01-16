@@ -27,6 +27,7 @@ public class StudentController {
 	@Autowired
 	private StudentRepository studentRepository;
 	private int b;
+	private int a;
 	
 	
 	//get all students
